@@ -1,0 +1,415 @@
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/Debian) (preloaded format=xelatex 2023.5.18)  11 JUL 2024 14:16
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"/home/rainy/krp/KRP-Assignment 5/KRP-Assignment 5 ans"
+(/home/rainy/krp/KRP-Assignment 5/KRP-Assignment 5 ans.tex
+LaTeX2e <2020-02-02> patch level 2
+L3 programming layer <2020-02-14> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2019/12/20 v1.4l Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2019/12/20 v1.4l Standard LaTeX file (size option)
+)
+\c@part=\count163
+\c@section=\count164
+\c@subsection=\count165
+\c@subsubsection=\count166
+\c@paragraph=\count167
+\c@subparagraph=\count168
+\c@figure=\count169
+\c@table=\count170
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2019/11/30 v1.2a Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2019/11/30 v1.4a Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 105.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen135
+\Gin@req@width=\dimen136
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count171
+\float@exts=\toks15
+\float@box=\box45
+\@float@everytoks=\toks16
+\@floatcapt=\box46
+) (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks17
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2020/01/20 v2.17e AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+ (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen137
+)) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen138
+) (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count172
+LaTeX Info: Redefining \frac on input line 227.
+\uproot@=\count173
+\leftroot@=\count174
+LaTeX Info: Redefining \overline on input line 389.
+\classnum@=\count175
+\DOTSCASE@=\count176
+LaTeX Info: Redefining \ldots on input line 486.
+LaTeX Info: Redefining \dots on input line 489.
+LaTeX Info: Redefining \cdots on input line 610.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen139
+LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
+\macc@depth=\count177
+\c@MaxMatrixCols=\count178
+\dotsspace@=\muskip16
+\c@parentequation=\count179
+\dspbrk@lvl=\count180
+\tag@help=\toks19
+\row@=\count181
+\column@=\count182
+\maxfields@=\count183
+\andhelp@=\toks20
+\eqnshift@=\dimen140
+\alignsep@=\dimen141
+\tagshift@=\dimen142
+\tagwidth@=\dimen143
+\totwidth@=\dimen144
+\lineht@=\dimen145
+\@envbody=\toks21
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2859.
+LaTeX Info: Redefining \] on input line 2860.
+) (/usr/share/texlive/texmf-dist/tex/latex/paralist/paralist.sty
+Package: paralist 2017/01/22 v2.7 Extended list environments
+\pltopsep=\skip52
+\plpartopsep=\skip53
+\plitemsep=\skip54
+\plparsep=\skip55
+\pl@lab=\toks23
+) (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+\c@definition=\count184
+ (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
+File: l3backend-xdvipdfmx.def 2020-02-03 L3 backend support: xdvipdfmx
+\g__graphics_track_int=\count185
+\l__pdf_internal_box=\box49
+\g__pdf_backend_object_int=\count186
+\g__pdf_backend_annotation_int=\count187
+) (./KRP-Assignment 5 ans.aux)
+\openout1 = `"KRP-Assignment 5 ans.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 44.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 44.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 44.
+LaTeX Font Info:    ... okay on input line 44.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 46.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 46.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+]
+Overfull \hbox (26.80109pt too wide) in paragraph at lines 133--134
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--148
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 172--174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--174
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 172--174
+
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 213--215
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 219--221
+
+ []
+
+
+Overfull \hbox (127.76242pt too wide) in paragraph at lines 221--222
+[]$\OML/cmm/m/it/10 R\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 managed[]by\OT1/cmr/m/n/10 ) = \OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Mayday; Amuse\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 d[]; d[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Mayday; d[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 d[]; d[]\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 g$ 
+ []
+
+
+Overfull \hbox (71.95793pt too wide) in paragraph at lines 223--225
+[]$\OML/cmm/m/it/10 R\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 plays[]for\OT1/cmr/m/n/10 ) = \OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 d[]; d[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Ashin; d[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 d[]; d[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Monster; d[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; [] 
+ []
+
+
+Overfull \hbox (45.41922pt too wide) in paragraph at lines 223--225
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Stone; d[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 d[]; d[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Masa; d[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 d[]; d[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Ming; d[]\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 g$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--229
+
+ []
+
+
+Overfull \hbox (61.6642pt too wide) in paragraph at lines 229--231
+[]$\OT1/cmr/m/n/10 ^^A[] = \OMS/cmsy/m/n/10 f\OML/cmm/m/it/10 d[]; d[]; d[]; d[]; d[]; d[]; d[]; [] 
+ []
+
+[4]
+Overfull \hbox (31.39078pt too wide) in paragraph at lines 239--241
+[]$\OML/cmm/m/it/10 R\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 managed[]by\OT1/cmr/m/n/10 ) = \OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Mayday; Amuse\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 d[]; d[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Mayday; d[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; [] 
+ []
+
+
+Overfull \hbox (70.2913pt too wide) in paragraph at lines 242--244
+[]$\OML/cmm/m/it/10 R\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 plays[]for\OT1/cmr/m/n/10 ) = \OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 d[]; d[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Ashin; d[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 d[]; d[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Monster; d[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ;$
+ []
+
+
+Overfull \hbox (45.41922pt too wide) in paragraph at lines 242--244
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Stone; d[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 d[]; d[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Masa; d[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 d[]; d[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Ming; d[]\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 g$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 246--250
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 251--254
+
+ []
+
+
+Overfull \hbox (33.40825pt too wide) in paragraph at lines 255--259
+\TU/lmr/m/n/10 We look for the relation playes-for and captained-by and check if have $\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Monster; d[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--259
+
+ []
+
+
+Overfull \hbox (16.60593pt too wide) in paragraph at lines 260--264
+\TU/lmr/m/n/10 We look for the relation playes-for and managed-by and check if have $\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Ming; d[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--264
+
+ []
+
+
+Overfull \hbox (9.34987pt too wide) in paragraph at lines 265--271
+\TU/lmr/m/n/10 So the answer is a lot which looks like in this form:$\OT1/cmr/m/n/10 (1 \OML/cmm/m/it/10 of \OT1/cmr/m/n/10 7 \OML/cmm/m/it/10 first part; \OT1/cmr/m/n/10 7 \OML/cmm/m/it/10 parts\OT1/cmr/m/n/10 )$\TU/lmr/m/n/10 .There
+ []
+
+
+Overfull \hbox (30.03307pt too wide) in paragraph at lines 265--271
+\TU/lmr/m/n/10 But the certain is $\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Ashin; Ashin\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Monster; Monster\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Stone; Stone\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Masa; Masa\OT1/cmr/m/n/10 )[] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--271
+
+ []
+
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 272--275
+
+ []
+
+
+Overfull \hbox (88.77014pt too wide) in paragraph at lines 296--340
+ [][][][] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 359--362
+
+ []
+
+[6]
+Overfull \hbox (67.17839pt too wide) in paragraph at lines 368--369
+[]$\OML/cmm/m/it/10 Person[] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 (2101\OML/cmm/m/it/10 ; Jay[]Chou\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (2102\OML/cmm/m/it/10 ; Jolin[]Tsai\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (2103\OML/cmm/m/it/10 ; Stefanie[]Sun\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (2104\OML/cmm/m/it/10 ; Ta \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (66.68097pt too wide) in paragraph at lines 370--371
+[]$\OML/cmm/m/it/10 Attendance[] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 (2101\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 30000160)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (2102\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 30000160)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (2102\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 30000170)\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (2103\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 30000150)\OMS/cmsy/m/n/10 g$ 
+ []
+
+
+Overfull \hbox (32.59421pt too wide) in paragraph at lines 379--387
+\TU/lmr/m/n/10 1.$\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 (2101\OML/cmm/m/it/10 ; Jay[]Chou\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (2102\OML/cmm/m/it/10 ; Jolin[]Tsai\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (2103\OML/cmm/m/it/10 ; Stefanie[]Sun\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (2104\OML/cmm/m/it/10 ; Ta \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 yu[]Lo\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 g$ 
+ []
+
+
+Overfull \hbox (32.59421pt too wide) in paragraph at lines 379--387
+\TU/lmr/m/n/10 1.$\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 (2101\OML/cmm/m/it/10 ; Jay[]Chou\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (2102\OML/cmm/m/it/10 ; Jolin[]Tsai\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (2103\OML/cmm/m/it/10 ; Stefanie[]Sun\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (2104\OML/cmm/m/it/10 ; Ta \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 yu[]Lo\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 g$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--387
+
+ []
+
+
+Overfull \hbox (75.8791pt too wide) detected at line 394
+[]
+ []
+
+[7]
+Overfull \hbox (16.6513pt too wide) in paragraph at lines 405--411
+\TU/lmr/m/n/10 3.certain answer:$\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Stefanie[]Sun; Stefanie[]Sun\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Jolin[]Tsai; Jolin[]Tsai\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 g$\TU/lmr/m/n/10 ,So
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 405--411
+
+ []
+
+
+Overfull \hbox (11.89513pt too wide) in paragraph at lines 412--419
+\TU/lmr/m/n/10 1.certain answer:$\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Jolin[]Tsai; Stefanie[]Sun\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Stefanie[]Sun; Stefanie[]Sun\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; [] 
+ []
+
+
+Overfull \hbox (16.6513pt too wide) in paragraph at lines 412--419
+\TU/lmr/m/n/10 3.certain answer:$\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Stefanie[]Sun; Stefanie[]Sun\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Jolin[]Tsai; Jolin[]Tsai\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 g$\TU/lmr/m/n/10 ,So
+ []
+
+
+Overfull \hbox (2.7557pt too wide) in paragraph at lines 412--419
+\TU/lmr/m/n/10 4.certain answer:$\OMS/cmsy/m/n/10 f\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Stefanie[]Sun; Stefanie[]Sun\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Jolin[]Tsai; Jolin[]Tsai\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; [] 
+ []
+
+
+Overfull \hbox (30.87325pt too wide) in paragraph at lines 412--419
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Jay[]Chou; Jolin[]Tsai\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Jolin[]Tsai; Stefanie[]Sun\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 Stefanie[]Sun; Jay[]hou\OT1/cmr/m/n/10 )\OMS/cmsy/m/n/10 g$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--419
+
+ []
+
+[8]
+Overfull \hbox (6.33122pt too wide) in paragraph at lines 433--435
+[]\TU/lmss/m/n/10 public Set$\OML/cmm/m/it/10 <$\TU/lmss/m/n/10 QueryResult$\OML/cmm/m/it/10 >$ \TU/lmss/m/n/10 filterNamedPizzas (Set$\OML/cmm/m/it/10 <$\TU/lmss/m/n/10 QueryResult$\OML/cmm/m/it/10 >$ \TU/lmss/m/n/10 results) {...}; 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 435--436
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 441--443
+
+ []
+
+[9]
+Overfull \hbox (4.42621pt too wide) in paragraph at lines 447--462
+\TU/lmr/m/n/10 (1).As the problem goes, if we need to prove it is also a $\OT1/cmr/m/n/10 ^^F \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 conservative extension$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 447--462
+
+ []
+
+[10] (./KRP-Assignment 5 ans.aux) ) 
+Here is how much of TeX's memory you used:
+ 2658 strings out of 481370
+ 34479 string characters out of 5926567
+ 281614 words of memory out of 5000000
+ 19665 multiletter control sequences out of 15000+600000
+ 538770 words of font info for 61 fonts, out of 8000000 for 9000
+ 264 hyphenation exceptions out of 8191
+ 30i,14n,37p,1126b,289s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on KRP-Assignment 5 ans.pdf (10 pages).

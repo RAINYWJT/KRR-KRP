@@ -1,0 +1,210 @@
+\documentclass[12pt,a4paper]{article}
+ 
+                               
+\usepackage[T1]{fontenc} % So we can use pretty T1 fonts
+\usepackage{libertine}
+ 
+\usepackage[margin=0.5in]{geometry}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{soul}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{caption}
+\usepackage{booktabs}
+\usepackage{cancel}
+\usepackage{algorithm}
+\usepackage{algorithmic}
+%\usepackage{helvet}
+%\usepackage{courier}
+\usepackage{mathtools}
+\usepackage{pifont}
+\usepackage{dashbox}
+\usepackage{xspace}
+\usepackage{color}
+\usepackage{multirow}
+\usepackage{url}
+%\usepackage{extsizes}
+% the following package is optional:
+\usepackage{latexsym}
+%\usepackage{mathptmx}
+\usepackage{stmaryrd}
+\usepackage{enumitem}
+\newtheorem{definition}{Definition}
+\setlength\parindent{0pt}
+
+\makeatletter
+\newcommand\makebig[2]{%
+  \@xp\newcommand\@xp*\csname#1\endcsname{\bBigg@{#2}}%
+  \@xp\newcommand\@xp*\csname#1l\endcsname{\@xp\mathopen\csname#1\endcsname}%
+  \@xp\newcommand\@xp*\csname#1r\endcsname{\@xp\mathclose\csname#1\endcsname}%
+}
+\makeatother
+
+\makebig{biggg} {3.0}
+\makebig{Biggg} {3.5}
+\makebig{bigggg}{5.0}
+\makebig{Bigggg}{14.0}
+
+\newcommand{\alc}{$\mathcal{ALC}$\xspace}
+\newcommand{\el}{$\mathcal{EL}$\xspace}
+%para nao ficar o retangulo em volta dos links, apenas muda a cor dos caracteres
+\hypersetup{ colorlinks,
+linkcolor=blue,
+filecolor=blue,
+urlcolor=blue,
+citecolor=blue }
+
+% altera a fonte nas legendas das figuras
+%\usepackage[font=small,format=plain,labelfont=bf,up,textfont=times]{caption}
+ 
+
+\newenvironment{problem}[2][{\color{red}Question}]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\newenvironment{problems}[2][{\color{purple}Question}]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\newenvironment{problemss}[2][{\color{red}\xcancel{Question 10}}]{\begin{trivlist}
+\item[\hskip \labelsep {\bfseries #1}\labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\newenvironment{solution}[2][{\color{blue}Model Solution}]{\begin{trivlist}
+\item[\hskip\labelsep {\bfseries #1}\hskip \labelsep {\bfseries #2.}]}{\end{trivlist}}
+
+\setlength{\parskip}{0,3em}  %altera o espaco entre dois paragrafos
+\renewcommand{\baselinestretch}{1.1} %altera o espacamento entre as linhas
+ 
+\begin{document}
+
+
+\title{{\color{blue}KRP --- Assignment 4}}
+\author{Instructor: Yizheng Zhao}
+
+ 
+\maketitle
+
+\textbf{$\star$~\textcolor{gray}{This assignment, due on \underline{\textcolor{blue}{26th May at 23:59}}, contributes to 10\% of the final marks for this course. Please be advised that only Questions 1 --- 8 are mandatory. Nevertheless, students can earn up to one bonus mark by completing Question~9. This bonus mark can potentially augment a student's overall marks but is subject to a maximum total of 100 for the course. By providing bonus marks, we aim to incentivize students to excel in their studies and reward those with a remarkable grasp of the course materials.}}
+
+\begin{problem}{{\color{red}1}}
+\textbf{$\mathcal{ALC}$-Worlds Algorithm}\\
+Use the $\mathcal{ALC}$-Worlds algorithm to decide the satisfiability of the concept name $B_0$ w.r.t.\ the simple TBox:
+\begin{equation*}
+\mathcal{T}:=\Biggggl\{
+  \begin{aligned}
+B_0&\equiv B_1\sqcap B_2\\
+B_1&\equiv\exists r.B_3\\
+B_2&\equiv B_4\sqcap B_5\\
+B_3&\equiv P\\
+  B_4&\equiv\exists r.B_6\\
+  B_5&\equiv B_7\sqcap B_8\\
+  B_6&\equiv Q\\
+  B_7&\equiv\forall r.B_4\\
+  B_8&\equiv\forall r.B_9\\
+  B_9&\equiv\forall r.B_{10}\\
+  B_{10}&\equiv\neg P
+  \end{aligned}
+  \Biggggl\},
+\end{equation*}
+Draw the recursion tree of a successful run and of an unsuccessful run. Does the algorithm return a positive or negative result on this input?
+\end{problem}
+
+\begin{problem}{{\color{red}2}}
+\textbf{Finite Boolean Games}\\
+Determine whether Player $1$ has a winning strategy in the following finite Boolean games, where in both cases $\Gamma_{1}:=\{x_1, x_3\}$ and $\Gamma_{2}:=\{x_2, x_4\}$.
+
+\begin{itemize}
+\item[-] $\psi :=(x_{1}\vee\neg x_{2})\wedge(x_{2}\vee x_{3})\wedge(\neg x_{3}\vee\neg x_{4})\wedge(\neg x_{1}\vee \neg x_{2}\vee x_{3}\vee x_{4})$
+\end{itemize}
+\end{problem}
+
+\begin{problem}{{\color{red}3}}
+\textbf{Infinite Boolean Games}\\
+Determine whether Player \textsf{2} has a winning strategy in the following infinite Boolean games where the initial configuration $t_{0}$ assigns \emph{false} to all variables.
+\begin{itemize}
+    \item[-] $\psi :=(x_{1}\wedge x_{2}\wedge\neg y_{1})\vee(x_{3}\wedge x_{4}\wedge\neg y_{2})\vee(\neg(x_{1}\vee x_{4})\wedge y_{1}\wedge y_{2})$
+    \item[] provided that: $\Gamma_{1}:=\{x_{1}, x_{2}, x_{3}, x_{4}\}$ and $\Gamma_{2}:=\{y_{1}, y_{2}\}$
+\end{itemize}
+\end{problem}
+
+\begin{problem}{{\color{red}4}}
+\textbf{Complexity of Concept Satisfiability in \alc Extensions}\\
+The universal role is a role $u$ such that its extension is fixed as $\Delta^{\mathcal{I}}\times\Delta^{\mathcal{I}}$ in any
+interpretation $\mathcal{I}$. Let $\mathcal{ALC}^{u}$ be a DL extending \alc with the universal role. 
+\begin{itemize}
+\item[-] Show that concept satisfiability in $\mathcal{ALC}^{u}$ without TBoxes is EXPTIME-complete.
+\end{itemize}
+\end{problem}
+
+\begin{problem}{{\color{red}5}}
+\textbf{Subsumption in $\mathcal{EL}$}\\
+Consider the following $\mathcal{EL}$ TBox:
+
+\begin{equation*}
+  \mathcal{T}:=\biggggl\{
+  \begin{aligned}
+  A&\sqsubseteq B\sqcap\exists r.C\\
+  B\sqcap\exists r.B&\sqsubseteq C\sqcap D\\
+  C&\sqsubseteq(\exists r.A)\sqcap B\\
+  (\exists r.\exists r.B)\sqcap D&\sqsubseteq\exists r.(A\sqcap B)
+  \end{aligned}
+  \biggggl\},
+\end{equation*}where $A$, $B$, $C$, $D$ are concept names. 
+
+Use the classification procedure for $\mathcal{EL}$ to check whether the following subsumptions hold w.r.t. $\mathcal{T}$.
+\begin{itemize}
+\item[-] $A\sqsubseteq\exists r.\exists r.A$
+\item[-] $B\sqcap\exists r.A\sqsubseteq\exists r.C$
+\end{itemize}
+\end{problem}
+
+\begin{problem}{{\color{red}6}}
+\textbf{Conservative Extension (2 marks)}\\
+Let $\mathcal{T}_{1}$ be an $\mathcal{EL}$ TBox, with $C$ and $D$ as $\mathcal{EL}$ concepts. Let us further consider $\mathcal{T}_{2}:=\mathcal{T}_{1}\cup\{A\sqsubseteq C, D\sqsubseteq B\}$, wherein $A$ and $B$ are new concept names (as in Lemma $6.1$). 
+\begin{itemize}
+\item[-] Show that $\mathcal{T}_{2}$ is a conservative extension of $\mathcal{T}_{1}$.
+\item[-] Is this still the case after adding $A\sqsubseteq B$ to $\mathcal{T}_{2}$?
+\item[-] What about adding $B\sqsubseteq A$?
+\end{itemize}
+\end{problem}
+
+\begin{problem}{{\color{red}7}}
+\textbf{$\mathcal{EL}$ Extension (2 marks)}\\
+We consider the DL $\mathcal{EL}_{\textsf{si}}$ extending $\mathcal{EL}$ by concept descriptions of the form $\exists^{\textsf{sim}}(\mathcal{I},\textsf{d})$, where $\mathcal{I}$ is a finite interpretation and $\textsf{d}\in\Delta^{\mathcal{I}}$. Their semantics is defined as follows.
+\[(\exists^{\textsf{sim}}(\mathcal{I},\textsf{d}))^{\mathcal{J}}:=\{\textsf{d}^{\prime}~|~\textsf{d}^{\prime}\in\Delta^{\mathcal{J}}~\text{and}~(\mathcal{I},\textsf{d})\eqsim(\mathcal{J},\textsf{d}^{\prime})\}\]
+Concept inclusions are then defined as usual.
+\begin{itemize}
+\item[-] Show that each $\mathcal{EL}_\textsf{si}$ concept description is equivalent to some concept descriptions of the form $\exists^{\textsf{sim}}(\mathcal{I},\textsf{d})$.
+\item[-] Show that $\mathcal{EL}_\textsf{si}$ is more expressive than $\mathcal{EL}$.
+\item[-] Show that checking subsumption in $\mathcal{EL}_\textsf{si}$ without any TBox can be done in polynomial time.
+\end{itemize}
+\end{problem}
+
+\begin{problem}{{\color{red}8}}
+\textbf{$\mathcal{ALC}$-Elim Algorithm}\\
+Use the $\mathcal{ALC}$-Elim algorithm to decide satisfiability of:
+\begin{itemize}
+\item[-] the concept name $A$ w.r.t.\ $\mathcal{T}:=\{A\sqsubseteq\exists r.A, \top\sqsubseteq A, \forall r.A\sqsubseteq\exists r.A\}$
+\item[-] the concept description $\forall r.\forall r.\neg B$ w.r.t.\ $\mathcal{T}:=\{\neg A\sqsubseteq B, A\sqsubseteq\neg B, \top\sqsubseteq\neg\forall r.A\}$
+\end{itemize}
+Give the constructed type sequence $\Gamma_{0}$, $\Gamma_{1},\ldots$. In the case of satisfiability, also give the satisfying model constructed in the proof of Lemma $5.10$.
+\end{problem}
+
+\begin{problems}{{\color{purple}9 (with 1 bonus mark)}}
+\textbf{Simulation}\\
+We consider simulations, which are ``one-sided'' variants of bisimulations. Given interpretations $\mathcal{I}$ and $\mathcal{J}$, the relation $\sigma\in\Delta^{\mathcal{I}}\times\Delta^{\mathcal{J}}$ is a simulation from $\mathcal{I}$ to $\mathcal{J}$ if
+\begin{itemize}
+\item[$\bullet$] whenever $\textsf{d}~\sigma~\textsf{d}^{\prime}$ and $\textsf{d}\in A^{\mathcal{I}}$, then $\textsf{d}^{\prime}\in A^{\mathcal{J}}$, for all $\textsf{d}\in\Delta^{\mathcal{I}}$, $\textsf{d}^{\prime}\in\Delta^{\mathcal{J}}$, and $A\in\mathbb{C}$;
+\item[$\bullet$] whenever $\textsf{d}~\sigma~\textsf{d}^{\prime}$ and $(\textsf{d},\textsf{e})\in r^{\mathcal{I}}$, then there exists an $\textsf{e}^{\prime}\in\Delta^{\mathcal{J}}$ such that $\textsf{e}~\sigma~\textsf{e}^{\prime}$ and $(\textsf{d}^{\prime},\textsf{e}^{\prime})\in r^{\mathcal{J}}$, for all $\textsf{d},\textsf{e}\in\Delta^{\mathcal{I}}$, $\textsf{d}^{\prime}\in\Delta^{\mathcal{J}}$, and $r\in\mathbb{R}$.
+\end{itemize}
+We write $(\mathcal{I},\textsf{d})\eqsim(\mathcal{J},\textsf{d}^{\prime})$ if there is a simulation $\sigma$ from $\mathcal{I}$ to $\mathcal{J}$ such that $\textsf{d}~\sigma~\textsf{d}^{\prime}$.
+\begin{itemize}
+\item[-] Show that $(\mathcal{I},\textsf{d})\sim(\mathcal{J},\textsf{d}^{\prime})$ implies $(\mathcal{I},\textsf{d})\eqsim(\mathcal{J},\textsf{d}^{\prime})$ and $(\mathcal{J},\textsf{d}^{\prime})\eqsim(\mathcal{I},\textsf{d})$.
+\item[-] Is the converse of the implication above also true?
+\item[-] Show that, if $(\mathcal{I},\textsf{d})\eqsim(\mathcal{J},\textsf{d}^{\prime})$, then $\textsf{d}\in C^{\mathcal{I}}$ implies $\textsf{d}^{\prime}\in C^{\mathcal{J}}$ for all $\mathcal{EL}$ concept descriptions $C$.
+\item[-] Which of the constructors disjunction, negation, or universal restriction can be added to $\mathcal{EL}$ without losing the property above?
+\item[-] Show that $\mathcal{ALC}$ is more expressive than $\mathcal{EL}$.
+\end{itemize}
+\end{problems}
+
+\end{document}

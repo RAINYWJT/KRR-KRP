@@ -1,0 +1,254 @@
+% This document is compiled using pdfLaTeX
+% You can switch XeLaTeX/pdfLaTeX/LaTeX/LuaLaTeX in Settings
+
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Assignment 1}
+\author{221300079 Juntong Wang}
+\date{\today}
+
+\begin{document}
+
+	\maketitle
+
+	\section{Question 1}
+
+	\subsection{(1)}
+
+	Timo is a cow.
+
+	\subsection{(2)}
+
+	Fido is not a dog.
+
+	\subsection{(3)}
+
+	Owing a cow is not enough to recognize a Person as a LivestockOwner.
+
+	\subsection{(4)}
+
+	0.(Zero)
+
+	\section{Question 2}
+
+	\subsection{(1)}
+	
+	I will translate it into SHOIQ form:(this form is from wiki)
+
+	\begin{enumerate}
+		\item[(1)] ML is an AI course taught by ZZH, a professor working at NJU
+		
+		inclusions:$\{ML\} \sqsubseteq AIcourse \sqcap (\exists teach^-.\{ZZH\})$,$\{ZZH\} \sqsubseteq Professor \sqcap (\exists workAt.\{NJU\})$ 
+
+		\item[(2)] NJU is a university whose members are a school or a department
+		
+		inclusions:$\{NJU\} \sqsubseteq University \sqcap (\forall hasMember.(School \sqcup Department))$
+		
+		\item[(3)] NJU has at least 30,000 students
+
+		inclusions:$\{NJU\} \sqsubseteq (\geq 30000 has.Student)$
+
+		\item[(4)] All members of AI School are undergraduates, graduates, or teachers
+		
+		inclusions:$(\exists memberOf.\{AI School\}) \sqsubseteq (Undergraduate \sqcup Graduate \sqcup Teacher)$
+		
+		\item[(5)] The domain of the relation ``citizenOf'' consists of countries
+		
+		inclusions:$(\exists citizenOf.\{\top\}) \sqsubseteq (Country)$
+	
+	\end{enumerate}
+
+	\subsection{(2)}
+
+		\textbf{Sentence 1:All members of AI School are undergraduates,graduates,or teachers}
+
+		$\forall x (memberOf(x, AI School) \to Undergraduate(x) \lor Graduate(x) \lor Teacher(X))$
+
+		\textbf{Sentence 2:The domain of the relation "citizenOf" consists of countries}
+
+		$\forall x (\exists y citizenOf(x,y) \to Country(x))$
+
+	\section{Question 3}
+ 
+	All the answer is follow the question:
+
+	\begin{itemize}
+		\item There is an ontology that has only finite models.
+		
+		Disprove.\\
+		Here is a way to create infinite models.Firstly we assume we have an model:$I = \{\Delta^I, .^I\}$
+		And then we assume that:$\{a\} \subseteq \Delta^I$, then we create a new element called:$\{a'\}$,so we could have a new model:
+		$I' = \{\Delta^{I'}, .^{I'}\}$,and then we get:$\Delta^{I'} = (\Delta^{I} / a) \cup \{a'\}$\\
+		So if we create the new model in this form, we could create infinite models.
+
+		\item Every ontology has either no model or infinite many models.
+		
+		Prove:\\
+		If the ontology has no model, it must in this way:$\top \sqsubseteq \bot$,and from question 2.1 we could get that the number of models is infinite.
+		So it has proved.
+
+		\item A satisfiable class must always have a non-empty interpretation.
+		
+		Prove:\\
+		From definition $2.14$, the satisfiability said that:C is satisfiable with respect to $\tau$ iff $C^I \neq \emptyset$ for some model $I$ of $\tau$,
+		the satisfiable model must have an interpretation, so proved. 
+		
+		\item An unsatisfiable class may have a non-empty interpretation in some models.
+		
+		Disprove:\\
+		If the unsatisfiable class have a non-empty interpretation in some models, from definition $2.14$, this is also satisfy the definition of 
+		satisfiable class, so it's contradictory.\\
+
+		\item An unsatisfiable class will be a subclass of any other class.
+	
+		Prove:\\
+		From question 2.4 we get that the unsatisfiable class is an emptyset.So an emptyset is always the subclass of any other class.
+	
+	\end{itemize}
+
+
+	\section{Question 4}
+
+	All the answer is follow the questions:
+
+	\begin{enumerate}
+		\item $\exists r.(A\sqcup B)$:$\{d,f\}$
+		\item $\exists s.\exists s.\neg A$:$\{d,e\}$
+		\item $\neg A\sqcap\neg B$:$\{f,h,i\}$
+		\item $\forall r.(A\sqcup B)$:$\{d,f,g,h,i\}$
+		\item $\leq{1}{s}.\top$:$\{e,f,g,h,i\}$
+	\end{enumerate}
+
+	\section{Question 5}
+
+	\subsection{(1)}
+
+	All the answer is follow the questions:
+	
+	\begin{itemize}
+		\item $(Q~\sqcap\geq{2}{r}.P)^{\mathcal{I}}$:$\emptyset$
+		\item $(\forall r.Q)^{\mathcal{I}}$:$\{b,c,d,e\}$
+		\item $(\neg\exists r.Q)^{\mathcal{I}}$:$\{b,c,e\}$
+		\item $(\forall r.\top\sqcap\exists r^{-}.P)^{\mathcal{I}}$:$\{b,d,e\}$
+		\item $(\exists r^{-}.\bot)^{\mathcal{I}}$:$\emptyset$
+	\end{itemize}
+
+	\subsection{(2)}
+	
+	All the answer is follow the questions:
+
+	\begin{itemize}
+		\item $\mathcal{I}\models A\equiv\exists r.B$:True
+		\item $\mathcal{I}\models A\sqcap B\sqsubseteq\top$:True
+		\item $\mathcal{I}\models \exists r.A\sqsubseteq A\sqcap B$:True
+		\item $\mathcal{I}\models \top\sqsubseteq B$:False
+		\item $\mathcal{I}\models B\sqsubseteq\exists r.A$:False
+	\end{itemize}
+
+
+	
+
+	\section{Question 6}
+
+	All the answer is follow the questions:
+
+	\begin{itemize}
+		\item if $C\sqsubseteq D$ holds, then $\exists r.C\sqsubseteq\exists r.D$ holds.
+		
+		For this question the proof as follow:\\
+		$(\exists r.C)^I$ = $\{d \in \Delta^I | \exists e \in \Delta^I :(d,e) \in r^I and \ e \in C^I\}$\\
+		$\sqsubseteq$ $\{d \in \Delta^I | \exists e \in \Delta^I :(d,e) \in r^I and \ e \in C^I\}$ $\sqcup$  $\{d \in \Delta^I | \exists e \in \Delta^I :(d,e) \in r^I and \ e \in D^I / C^I\}$ \\
+		= $\{d \in \Delta^I | \exists e \in \Delta^I :(d,e) \in r^I and \ e \in D^I\}$\\
+		= $(\exists r.D)^I$
+
+		\item $\exists r.C$ is equivalent to $\leq{1}{r}.\top$.
+		
+		Disprove as follow:\\
+		If we have model like: $r^I = \{(a,b)\},\ C^I = \{a\},\ \Delta^I = \{a,b\} $\\
+		So we get $(\exists r.C)^I$ is empty, but the $\leq{1}{r}.\top$ is $\{a,b\}$\\
+		So $\exists r.C$ is not equivalent to $\leq{1}{r}.\top$
+		
+		\item $\leq{0}{r}.\top$ is equivalent to $\forall r.\bot$.
+		
+		For this question the proof as follow:\\
+		$(\leq{0}{r}.\top)^I$ = $\{d \in \Delta^I | \{e \in \Delta^I :(d,e) \in r^I and \ e \in T\} \leq 0 \}$\\
+		= $\{d \in \Delta^I | \{e \in \Delta^I :(d,e) \in r^I and \ e \in T\} = \emptyset \}$\\
+		= $\{d \in \Delta^I | \{e \in \Delta^I :(d,e) \in r^I \} = \emptyset \}$\\
+		= $\{d \in \Delta^I | there \ is \ no \ relation \ (d,e) \in r^I \}$\\
+
+		$(\forall r.\bot)^I$ = $\{d \in \Delta^I | for \ all \ e \in \Delta: (d,e) \in r^I \rightarrow e \in \bot \}$\\
+		= $\{d \in \Delta^I | for \ all \ e \in \Delta: (d,e) \in r^I \rightarrow e \in \emptyset \}$\\
+		= $\{d \in \Delta^I | there \ is \ no \ relation \ (d,e) \in r^I \}$\\
+
+		\item $\forall r.(A\sqcup B)$ is equivalent to $(\forall r.A)\sqcup(\forall r.B)$.
+		
+		Disprove as follow:\\
+		If we have model:$\Delta^I = \{a,b,c\} , A^I = \{a\}, B^I = \{b\}, r^I = \{(c,a),(c,b)\}$\\
+		As the interpretation of $(\forall r.(A\sqcup B))^I$ goes: $\{d \in \Delta^I | for \ all \ e \in \Delta: (d,e) \in r^I \rightarrow e \in (A \cup B)\}$ = $\{a,b,c\}$\\
+		But if we get the interpretation of $(\forall r.A)^I\sqcup(\forall r.B)^I$ we get the answer goes:$\{a,b\}$\\
+		So $\forall r.(A\sqcup B)$ is not equivalent to $(\forall r.A)\sqcup(\forall r.B)$
+
+		\item $\exists r.(A\sqcup B)$ is equivalent to $(\exists r.A)\sqcup(\exists r.B)$.
+		
+		For this question the proof as follow:\\
+		Firstly:we prove $\exists r.(A\sqcup B)$ $\sqsubseteq $ $(\exists r.A)\sqcup(\exists r.B)$\\
+		As the interpretation goes:  $\exists r.(A\sqcup B)$ = $\{d \in \Delta^I | there \ is \ e \in \Delta^I:\ (d,e) \in r^I \ and \ e \in (A \cup B) \}$\\
+		$\subseteq$ $\{d \in \Delta^I | there \ is \ e \in \Delta^I:\ (d,e) \in r^I \ and \ e \in A\}$ $\cup$ $\{d \in \Delta^I | there \ is \ e \in \Delta^I:\ (d,e) \in r^I \ and \ e \in B  \}$\\
+		= $\{d \in \Delta^I | there \ is \ e \in \Delta^I:\ (d,e) \in r^I \ and \ e \in A or \in B \}$\\
+
+		Secondly:we prove:$(\exists r.A)\sqcup(\exists r.B)$ $\sqsubseteq $ $\exists r.(A\sqcup B)$\\
+		As the interpretation goes:$\{d \in \Delta^I | there \ is \ e \in \Delta^I:\ (d,e) \in r^I \ and \ e \in A\}$ $\cup$ $\{d \in \Delta^I | there \ is \ e \in \Delta^I:\ (d,e) \in r^I \ and \ e \in B  \}$\\
+		$\subseteq$ $\{d \in \Delta^I | there \ is \ e \in \Delta^I:\ (d,e) \in r^I \ and \ e \in A or \in B \}$\\
+
+		So this question has proved.
+
+	\end{itemize}
+
+	\section{Question 7}
+
+	Here is the proof:
+	
+	We assume a model as follow:$\Delta^I = \{a,b,c\}$,$Person^I = \{a,b,c\}$,$Parent^I = \{a,b\}$,$Mother^I = \{a\}$,and relationship:$hasChild^I = \{(a,c),(b,c)\}$.
+	
+	Firstly we could get that:$(\exists\textsf{hasChild}.\textsf{Person})^I$ equals to $\{a,b\}$, and $Person^I$ also equals to $\{a,b\}$, so we get:$\textsf{Parent}\sqsubseteq\exists\textsf{hasChild}.\textsf{Person}$
+	
+	Secondly we get that:$Mother^I = \{a\}$,so $ \textsf{Mother}\sqsubseteq\textsf{Parent}$.
+	
+	At this time, we have proved $\mathcal{I}\models\mathcal{T}$.
+	
+	Then,$Parent^I = \{a,b\}$ which is definitely not belongs to $Mother^I = \{a\}$.
+
+	So we have proved $\mathcal{I}\not\models\textsf{Parent}\sqsubseteq\textsf{Mother}$.
+
+
+	\section{Question 8}
+
+	Let $\mathcal{T}$ be an $\mathcal{ALC}$ TBox, which is a finite set of concept inclusions. Let $X$ and $Y$ be complex $\mathcal{ALC}$ concepts (note that a complex concept can also be an atomic concept). Show that:
+	\begin{itemize}
+    	\item $X\sqsubseteq_{\mathcal{T}}Y$ if and only if $X\sqcap\neg Y$ is not satisfiable with respect to $\mathcal{T}$.
+    	
+		Prove:\\
+		$\Rightarrow$: 
+		If  $X\sqsubseteq_{\mathcal{T}}Y$,so $X^I \subseteq Y^I$, so $X^I \cap \neg Y^I$ is $emptyset$, so there is no model, so is not satisfiable with respect to $\mathcal{T}$\\
+		$\Leftarrow$:
+		If $X\sqcap\neg Y$,so $X^I \cap \neg Y^I$ is $emptyset$ is satisfiable,so $X^I \subseteq Y^I$,so $X\sqsubseteq_{\mathcal{T}}Y$.
+
+		\item $X$ is satisfiable with respect to $\mathcal{T}$ if and only if $X\not\sqsubseteq\bot$.
+
+		Prove:\\
+		$\Rightarrow$: 
+		If $X$ is satisfiable with respect to $\mathcal{T}$,from definition 2.14 we get $X^I \neq \emptyset$, so $X\not\sqsubseteq\bot$.\\
+		$\Leftarrow$:
+		If $X\not\sqsubseteq\bot$, this means there exists an interpretation or model to satisfy X, so from definition X is satisfiable with respect to $\tau$
+		 
+
+	\end{itemize}
+
+	
+
+	\section{Question 9}
+
+	\section{Question 10}
+
+\end{document}
